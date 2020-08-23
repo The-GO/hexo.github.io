@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hexo相关命令</title>
+    <url>/post/dc17.html</url>
+    <content><![CDATA[<p><img src="/img/5.jpg" alt="Hexo相关命令"></p>
+<a id="more"></a>
+
+<figure class="highlight nginx"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo</span> n 文章名       <span class="comment">#新建文章</span></span><br><span class="line">hexo clean          <span class="comment">#清除网站缓存</span></span><br><span class="line">hexo g              <span class="comment">#生成网址静态文件</span></span><br><span class="line">hexo s              <span class="comment">#本地预览</span></span><br><span class="line">hexo d              <span class="comment">#部署博客网站</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s   <span class="comment">#组合起来 本地预览</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d   <span class="comment">#组合起来 部署到coding(GitHub)</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VPS一键测速脚本-性能和速度测试</title>
+    <url>/post/699f.html</url>
+    <content><![CDATA[<p><img src="/img/3.jpg" alt="VPS一键测速脚本-性能和速度测试"></p>
+<a id="more"></a>
+
+<h1>SuperSpeed 全面测速版</h1>
+<p>GitHub:<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2Vybmlzbi9zdXBlcnNwZWVk">https://github.com/ernisn/superspeed<i class="fa fa-external-link-alt"></i></span></p>
+<p>查看全部节点:<span class="exturl" data-url="aHR0cHM6Ly9naXQuaW8vc3VwZXJzcGVlZExpc3Q=">https://git.io/superspeedList<i class="fa fa-external-link-alt"></i></span></p>
+<figure class="highlight lisp"><table><tr><td class="code"><pre><span class="line">bash &lt;(<span class="name">curl</span> -Lso- https<span class="symbol">://git</span>.io/superspeed)</span><br></pre></td></tr></table></figure>
+
+<h1>Superspeed.sh</h1>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">wget https:<span class="regexp">//</span>raw.githubusercontent.com<span class="regexp">/oooldking/</span>script<span class="regexp">/master/</span>superspeed.sh</span><br><span class="line">chmod +x superspeed.sh</span><br><span class="line">./superspeed.sh</span><br></pre></td></tr></table></figure>
+
+<h1>VPS信息检查脚本</h1>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">wget -q https:<span class="regexp">//gi</span>thub.com<span class="regexp">/Aniverse/</span>A<span class="regexp">/raw/i</span><span class="regexp">/a &amp;&amp; bash a</span></span><br></pre></td></tr></table></figure>
+
+<h1>superbench</h1>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">wget -qO- --no-check-certificate https:<span class="regexp">//</span>raw.githubusercontent.com<span class="regexp">/oooldking/</span>script<span class="regexp">/master/</span>superbench.sh | bash</span><br></pre></td></tr></table></figure>
+
+<h1>bench.sh</h1>
+<p>一键检测VPS的CPU、内存、负载、IO读写、机房带宽等脚本</p>
+<h1>命令1：</h1>
+<figure class="highlight 1c"><table><tr><td class="code"><pre><span class="line">wget -qO- bench.sh <span class="string">| bash</span></span><br></pre></td></tr></table></figure>
+<h1>或者</h1>
+<figure class="highlight 1c"><table><tr><td class="code"><pre><span class="line">curl -Lso- bench.sh <span class="string">| bash</span></span><br></pre></td></tr></table></figure>
+<h1>命令2：</h1>
+<figure class="highlight 1c"><table><tr><td class="code"><pre><span class="line">wget -qO- <span class="number">86</span>.re/bench.sh <span class="string">| bash</span></span><br></pre></td></tr></table></figure>
+<h1>或者</h1>
+<figure class="highlight stata"><table><tr><td class="code"><pre><span class="line">curl -<span class="keyword">so</span>- 86.re/bench.<span class="keyword">sh</span> | bash</span><br></pre></td></tr></table></figure>
+<h1>下载地址：</h1>
+<p><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RlZGR5c3VuL2Fjcm9zcy9ibG9iL21hc3Rlci9iZW5jaC5zaA==">https://github.com/teddysun/across/blob/master/bench.sh<i class="fa fa-external-link-alt"></i></span></p>
+
+<h1>一键测试回程Ping值工具：MPing</h1>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">wget https:<span class="regexp">//</span>raw.githubusercontent.com<span class="regexp">/helloxz/m</span>ping<span class="regexp">/master/m</span>ping.sh</span><br><span class="line">bash mping.sh</span><br></pre></td></tr></table></figure>
+
+<h1>自建speedtest测试</h1>
+<p>这个适合VPS主机商，方便给客户测试从服务器到用户本地的下载速度。</p>
+<p>将程序上传到服务器上，然后打开后点击就可以测试得到服务器的速度了。</p>
+<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2Fkb2xmaW50ZWwvc3BlZWR0ZXN0">https://github.com/adolfintel/speedtest<i class="fa fa-external-link-alt"></i></span>
+
+<h1>ZBench-CN.sh</h1>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">wget -N --no-check-certificate https:<span class="regexp">//</span>raw.githubusercontent.com<span class="regexp">/FunctionClub/</span>ZBench<span class="regexp">/master/</span>ZBench-CN.sh &amp;&amp; bash ZBench-CN.sh</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>VPS</category>
+      </categories>
+      <tags>
+        <tag>VPS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用GitHub免费私有仓库备份Hexo源文件</title>
+    <url>/post/8c8e.html</url>
+    <content><![CDATA[<p><img src="/img/1.jpg" alt="使用GitHub免费私有仓库备份Hexo源文件"></p>
+<a id="more"></a>
+
+<h2>备份是个好习惯</h2><p>虽然部署 Hexo 后的博客静态文件一般托管在 GitHub 上，但 Hexo 的源文件依旧是存放在本地的，这就有了安全隐患。为了防止因为意外导致源文件丢失，应该做定期备份。我们可以选择使用 U 盘、网盘、NAS 等途径来备份，但本教程强烈推荐使用 GitHub 私有仓库备份 Hexo 源文件。</p>
+<h2>创建私有仓库</h2><p>GitHub 现在允许免费账号无限制的创建私有仓库了，<a href="https://github.com/new" target="_blank" rel="noopener"><mark class="label primary">点击创建私有仓库</mark></a>（选择 Private）。</p>
+<h2>备份到私有仓库</h2><p>在本地 Hexo 源文件的根目录下执行相应 git 命令：</p>
+<figure class="highlight properties"><table><tr><td class="code"><pre><span class="line"><span class="attr">git</span> <span class="string">init</span></span><br><span class="line"><span class="attr">git</span> <span class="string">remote add origin git@github.com:用户名/仓库名.git</span></span><br><span class="line"><span class="attr">git</span> <span class="string">pull origin master</span></span><br><span class="line"><span class="attr">git</span> <span class="string">add .</span></span><br><span class="line"><span class="attr">git</span> <span class="string">commit -m &quot;beifen&quot;</span></span><br><span class="line"><span class="attr">git</span> <span class="string">push origin master</span></span><br></pre></td></tr></table></figure>
+<h2>更新备份内容</h2><p>博客发布文章后，需及时更新备份，同样的，在本地 Hexo 源文件的根目录下执行相应 git 命令：</p>
+<figure class="highlight armasm"><table><tr><td class="code"><pre><span class="line"><span class="symbol">git</span> <span class="keyword">add</span> .</span><br><span class="line"><span class="symbol">git</span> commit -m <span class="string">&quot;upload&quot;</span></span><br><span class="line"><span class="symbol">git</span> <span class="keyword">push</span> origin master</span><br></pre></td></tr></table></figure>
+<h2>从备份中恢复</h2><p>如果真的发生意外，不幸丢失了本地的 Hexo 源文件，此时可以执行以下 git 命令恢复到本地：</p>
+<figure class="highlight crmsh"><table><tr><td class="code"><pre><span class="line">git <span class="keyword">clone</span> <span class="title">git</span>@github.com:用户名/仓库名.git</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>GitHub</category>
+      </categories>
+      <tags>
+        <tag>GitHub</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>免费壁纸</title>
+    <url>/post/99b0.html</url>
+    <content><![CDATA[<p><img src="/img/%E5%85%8D%E8%B4%B9%E5%A3%81%E7%BA%B8%E5%A4%A7%E5%85%A8.jpg" alt="免费壁纸大全"></p>
+<a id="more"></a>
+
+<h1 id="极简壁纸"><a href="#极简壁纸" class="headerlink" title="极简壁纸"></a>极简壁纸</h1><p><img src="/img/%E6%9E%81%E7%AE%80%E5%A3%81%E7%BA%B8.jpg" alt="极简壁纸"><br><span class="exturl" data-url="aHR0cHM6Ly9iei56enptaC5jbi8=">https://bz.zzzmh.cn<i class="fa fa-external-link-alt"></i></span></p>
+<p>国人维护的壁纸网站，图片大多来源 wallhaven 和 unsplash，国内访问速度不错。</p>
+
+<h1 id="美图集"><a href="#美图集" class="headerlink" title="美图集"></a>美图集</h1><p><img src="/img/%E7%BE%8E%E5%9B%BE%E9%9B%86.jpg" alt="美图集"><br><span class="exturl" data-url="aHR0cHM6Ly9waG90by5paGFuc2VuLm9yZy8=">https://photo.ihansen.org<i class="fa fa-external-link-alt"></i></span></p>
+<p>国人维护的壁纸网站，图片大多来源 unsplash，图片可用于商业用途，国内访问速度不错。</p>
+
+<h1 id="Wallhaven"><a href="#Wallhaven" class="headerlink" title="Wallhaven"></a>Wallhaven</h1><p><img src="/img/Wallhaven.jpg" alt="Wallhaven"><br><span class="exturl" data-url="aHR0cHM6Ly93YWxsaGF2ZW4uY2Mv">https://wallhaven.cc<i class="fa fa-external-link-alt"></i></span></p>
+<p>知名的壁纸网站，图片大多来源用户上传，质量惊人的高。拥有海量桌面、手机壁纸。</p>
+
+<h1 id="WallpaperCave"><a href="#WallpaperCave" class="headerlink" title="WallpaperCave"></a>WallpaperCave</h1><p><img src="/img/WallpaperCave.jpg" alt="WallpaperCave"><br><span class="exturl" data-url="aHR0cHM6Ly93YWxscGFwZXJjYXZlLmNvbS8=">https://wallpapercave.com<i class="fa fa-external-link-alt"></i></span></p>
+<p>WallpaperCave 是国外知名的壁纸社区，分享的壁纸质量很高。</p>
+
+<h1 id="Unsplash"><a href="#Unsplash" class="headerlink" title="Unsplash"></a>Unsplash</h1><p><img src="/img/unsplash.jpg" alt="Unsplash"><br><span class="exturl" data-url="aHR0cHM6Ly91bnNwbGFzaC5jb20vdC93YWxscGFwZXJz">https://unsplash.com/t/wallpapers<i class="fa fa-external-link-alt"></i></span></p>
+<p>知名的免费无版权图片网站，图片质量很高，经常被作为各种壁纸 app 来源。</p>
+
+]]></content>
+      <categories>
+        <category>壁纸</category>
+      </categories>
+      <tags>
+        <tag>壁纸</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>免费影视</title>
+    <url>/post/120a.html</url>
+    <content><![CDATA[<p><img src="/img/%E5%85%8D%E8%B4%B9%E5%BD%B1%E8%A7%86.jpg" alt="免费影视"></p>
+<a id="more"></a>
+
+<h1 id="电视影剧"><a href="#电视影剧" class="headerlink" title="电视影剧"></a>电视影剧</h1><table>
+<thead>
+<tr>
+<th align="center">名称</th>
+<th align="center">特点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><span class="exturl" data-url="aHR0cHM6Ly93d3cubmV3cWl5dS5jb20v">新奇遇电影<i class="fa fa-external-link-alt"></i></span></td>
+<td align="center">免费无广告高清影视站</td>
+</tr>
+<tr>
+<td align="center"><span class="exturl" data-url="aHR0cHM6Ly93d3cueXN0dDUuY29tLw==">影视天堂<i class="fa fa-external-link-alt"></i></span></td>
+<td align="center">免费无广告影视站</td>
+</tr>
+<tr>
+<td align="center"><span class="exturl" data-url="aHR0cHM6Ly93d3cuMjE2MjkubmV0Lw==">酷看影视<i class="fa fa-external-link-alt"></i></span></td>
+<td align="center">免费无广告影视站</td>
+</tr>
+<tr>
+<td align="center"><span class="exturl" data-url="aHR0cHM6Ly93d3cubWVuZ21pYW5kYXhpYS5jb20v">蒙面大侠影视<i class="fa fa-external-link-alt"></i></span></td>
+<td align="center">免费 1080p 影视站</td>
+</tr>
+<tr>
+<td align="center"><span class="exturl" data-url="aHR0cHM6Ly93d3cuanVodWl0di5jb20v">剧汇TV<i class="fa fa-external-link-alt"></i></span></td>
+<td align="center">免费热门电影电视剧</td>
+</tr>
+<tr>
+<td align="center"><span class="exturl" data-url="aHR0cHM6Ly93d3cuaGFpd2FpeXkub3JnLw==">海外影院<i class="fa fa-external-link-alt"></i></span></td>
+<td align="center">在线剧情片</td>
+</tr>
+<tr>
+<td align="center"><span class="exturl" data-url="aHR0cDovL3d1a29uZ3NoaXBpbi5jb20v">悟空视频<i class="fa fa-external-link-alt"></i></span></td>
+<td align="center">最新电视剧在线</td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="在线动漫"><a href="#在线动漫" class="headerlink" title="在线动漫"></a>在线动漫</h1><table>
+<thead>
+<tr>
+<th align="center">名称</th>
+<th align="center">特点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><span class="exturl" data-url="aHR0cHM6Ly93d3cuYWdlZmFucy50di8=">AGE动漫<i class="fa fa-external-link-alt"></i></span></td>
+<td align="center">在线播放与百度网盘</td>
+</tr>
+<tr>
+<td align="center"><span class="exturl" data-url="aHR0cDovL3d3dy56enpmdW4uY29tLw==">zzzfun<i class="fa fa-external-link-alt"></i></span></td>
+<td align="center">动漫在线更新快</td>
+</tr>
+<tr>
+<td align="center"><span class="exturl" data-url="aHR0cDovL2FnZWZhbnMub3JnLw==">agefans<i class="fa fa-external-link-alt"></i></span></td>
+<td align="center">在线播放及百度网盘</td>
+</tr>
+<tr>
+<td align="center"><span class="exturl" data-url="aHR0cDovL3d3dy5xaW1pcWltaS5jb20v">奇米奇米<i class="fa fa-external-link-alt"></i></span></td>
+<td align="center">新番动漫在线看</td>
+</tr>
+<tr>
+<td align="center"><span class="exturl" data-url="aHR0cDovL3d3dy5kbWQ4LmNvbS8=">动漫岛<i class="fa fa-external-link-alt"></i></span></td>
+<td align="center">新番连载大量完结日漫、国漫</td>
+</tr>
+<tr>
+<td align="center"><span class="exturl" data-url="aHR0cDovL3d3dy55eGRtLnR2Lw==">怡宣动漫<i class="fa fa-external-link-alt"></i></span></td>
+<td align="center">新番连载日漫、国漫</td>
+</tr>
+<tr>
+<td align="center"><span class="exturl" data-url="aHR0cHM6Ly93d3cueGllbGlhLmNvbS8=">免费漫画网<i class="fa fa-external-link-alt"></i></span></td>
+<td align="center">新番连载漫画</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>影视</category>
+      </categories>
+      <tags>
+        <tag>影视</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>图片API</title>
+    <url>/post/1eaf.html</url>
+    <content><![CDATA[<p><img src="/img/4.jpg" alt="动漫"></p>
+<a id="more"></a>
+
+
+<h2>360Api:</h2>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">https:<span class="regexp">//</span>api.xpcc.cc/<span class="number">360</span>.php</span><br></pre></td></tr></table></figure>
+<p><img src="https://api.xpcc.cc/360.php"></p>
+
+
+<h2>BingApi:</h2>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">https:<span class="regexp">//</span>api.xpcc.cc/bing.php</span><br></pre></td></tr></table></figure>
+<p><img src="https://api.xpcc.cc/bing.php"></p>
+
+
+<h2>Fghrsh:</h2>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">https:<span class="regexp">//</span>api.xpcc.cc/api</span><br></pre></td></tr></table></figure>
+<p><img src="https://api.xpcc.cc/api"></p>
+
+]]></content>
+      <categories>
+        <category>API</category>
+      </categories>
+      <tags>
+        <tag>API</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>静态资源CDN</title>
+    <url>/post/e81d.html</url>
+    <content><![CDATA[<p><img src="/img/2.jpg" alt="静态资源CDN"></p>
+<a id="more"></a>
+
+<h2>1. 又拍云 JS 库加速服务</h2><p><span class="exturl" data-url="aHR0cDovL2pzY2RuLnVwYWkuY29t">http://jscdn.upai.com<i class="fa fa-external-link-alt"></i></span></p>
+
+<h2>2. 腾讯网静态资源公共库</h2><p><span class="exturl" data-url="aHR0cHM6Ly9saWJzLnFxLmNvbQ==">https://libs.qq.com<i class="fa fa-external-link-alt"></i></span></p>
+
+]]></content>
+      <categories>
+        <category>CDN</category>
+      </categories>
+      <tags>
+        <tag>CDN</tag>
+      </tags>
+  </entry>
+</search>
